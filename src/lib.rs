@@ -1,4 +1,7 @@
 pub mod app;
+pub mod back;
+
+pub use crate::back::ApiDoc;
 
 #[cfg(feature = "hydrate")]
 #[wasm_bindgen::prelude::wasm_bindgen]
